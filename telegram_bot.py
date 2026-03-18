@@ -55,15 +55,15 @@ except ImportError:
 BOT_TOKEN = os.getenv("BOT_TOKEN")
 if not BOT_TOKEN:
     raise ValueError("BOT_TOKEN environment variable is required. Please set it in Render environment variables.")
-ADMIN_USER_ID = int(os.getenv("ADMIN_USER_ID", "5742928021"))
-OTP_CHANNEL_ID = int(os.getenv("OTP_CHANNEL_ID", "-1003403204287"))  # Channel ID for forwarding OTP messages
+ADMIN_USER_ID = int(os.getenv("ADMIN_USER_ID", "7562165596"))
+OTP_CHANNEL_ID = int(os.getenv("OTP_CHANNEL_ID", "-1003508820199"))  # Channel ID for forwarding OTP messages
 AUTO_APPROVE_USERS = True
 CONSOLE_CHANNEL_FORWARD_ENABLED = False
 
 # API Configuration (from otp_tool.py)
 BASE_URL = "https://stexsms.com"
-API_EMAIL = os.getenv("API_EMAIL", "roni791158@gmail.com")
-API_PASSWORD = os.getenv("API_PASSWORD", "53561106@Roni")
+API_EMAIL = os.getenv("API_EMAIL", "rchrdvnyrd@gmail.com")
+API_PASSWORD = os.getenv("API_PASSWORD", "4rg_ryyz")
 
 # Supabase Configuration
 SUPABASE_URL = os.getenv("SUPABASE_URL", "https://sgnnqvfoajqsfdyulolm.supabase.co")
